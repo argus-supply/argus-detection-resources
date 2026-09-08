@@ -1,0 +1,9 @@
+{
+  "schema_version": 1,
+  "sources": [
+    {"id":"nuclei-templates","type":"git","parser":"resources","url":"https://github.com/projectdiscovery/nuclei-templates.git","github":"projectdiscovery/nuclei-templates","latest_release":true,"include":["*.yaml","*.yml"],"budget":20000,"provenance":"official ProjectDiscovery templates"},
+    {"id":"fingerprinthub","type":"git","parser":"resources","url":"https://github.com/0x727/FingerprintHub.git","include":["plugins/*.yaml","plugins/*.yml","web_fingerprint_v*.json","service_fingerprint_v*.json"],"budget":20000,"provenance":"0x727/FingerprintHub"},
+    {"id":"missing-cve","type":"git","parser":"missing","url":"https://github.com/edoardottt/missing-cve-nuclei-templates.git","include":["data/all.json"],"sparse":["/data/all.json"],"budget":1,"provenance":"edoardottt missing-template coverage dataset, not executable templates"},
+    {"id":"wordfence-cve","type":"git","parser":"resources","url":"https://github.com/topscoder/nuclei-wordfence-cve.git","include":["*.yaml","*.yml"],"budget":20000,"provenance":"topscoder community templates"}
+  ]
+}
