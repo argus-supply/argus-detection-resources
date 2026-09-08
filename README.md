@@ -1,3 +1,5 @@
+> 已停用全量同步与 Release 发布工作流。ARGUS 使用独立按需检索服务（主应用仓库的 services/argus-intel-service）；本目录仅保留旧采集实现供参考，不作为数据分发源。
+
 # ARGUS 检测资源与覆盖索引
 
 每日北京时间 **04:03** 独立同步模板、指纹和覆盖缺口清单，也可手动触发。供应数据不会自动进入现有 `argus-rules`、Catalog 或 ARGUS 的执行环境。
